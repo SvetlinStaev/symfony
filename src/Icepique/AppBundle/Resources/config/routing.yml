@@ -190,4 +190,4 @@ amazon_sns_notifications:
 page:
     path: /{slug}
     defaults:
-        _controller: IcepiqueCoreBundle:Default:page
+        _controller: IcepiqueApp:Default:page
