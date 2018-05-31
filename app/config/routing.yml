@@ -1,0 +1,3 @@
+frontend:
+    resource: "@IcepiqueAppBundle/Resources/config/routing.yml"
+    prefix: /

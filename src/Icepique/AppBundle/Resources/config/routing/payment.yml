@@ -1,0 +1,35 @@
+payment_mobile:
+    path: /payment/mobio
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    methods: [GET, OPTIONS]
+    options:
+        i18n: false
+
+payment_wallet:
+    path: /payment/wallet
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        i18n: false
+
+payment_redirect:
+    path: /payment/process
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        i18n: false
+
+payment_notification_epay:
+    path: /payment/notification/epay
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        i18n: false
+
+payment_notification_paypal:
+    path: /payment/notification/paypal
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        i18n: false

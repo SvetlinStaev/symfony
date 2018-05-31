@@ -1,0 +1,81 @@
+login_check:
+    path: /login_check
+    options:
+        i18n: false
+
+logout:
+    path: /logout
+    options:
+        i18n: false
+
+login_facebook:
+    path: /login/check-facebook
+    defaults:
+        _remember_me: on
+    schemes: [https]
+    options:
+        i18n: false
+
+login_google:
+    path: /login/check-google
+    defaults:
+        _remember_me: on
+    schemes: [https]
+    options:
+        i18n: false
+
+login_yahoo:
+    path: /login/check-yahoo
+    defaults:
+        _remember_me: on
+    schemes: [https]
+    options:
+        i18n: false
+
+login_twitter:
+    path: /login/check-twitter
+    defaults:
+        _remember_me: on
+    schemes: [https]
+    options:
+        i18n: false
+
+login_windows:
+    path: /login/check-windows
+    defaults:
+        _remember_me: on
+    schemes: [https]
+    options:
+        i18n: false
+
+login_linkedin:
+    path: /login/check-linkedin
+    defaults:
+        _remember_me: on
+    schemes: [https]
+    options:
+        i18n: false
+
+login_dropbox:
+    path: /login/check-dropbox
+    defaults:
+        _remember_me: on
+    schemes: [https]
+    options:
+        i18n: false
+
+login_instagram:
+    path: /login/check-instagram
+    defaults:
+        _remember_me: on
+    schemes: [https]
+    options:
+        i18n: false
+
+login_flickr:
+    path: /login/check-flickr
+    defaults:
+        _remember_me: on
+    schemes: [https]
+    options:
+        i18n: false

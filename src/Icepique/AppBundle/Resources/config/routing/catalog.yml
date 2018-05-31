@@ -1,0 +1,256 @@
+catalog_listing_shortcut:
+    path: /c{id}
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        id: \d+
+
+catalog_home:
+    path: /каталог-фирми
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+catalog_listing_publish_success:
+    path: /каталог-фирми/успешно-публикуване.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+catalog_listing_update_success:
+    path: /каталог-фирми/успешно-обновяване.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+catalog_listing_login:
+    path: /каталог-фирми/редактирай-фирмен-профил
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+catalog_listing_logout:
+    path: /каталог-фирми/изход/{id}
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        id: \d+
+
+catalog_listing_reset_password:
+    path: /каталог-фирми/забравена-парола.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+catalog_listing_new_password:
+    path: /каталог-фирми/нова-парола/{id}/{token}
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        id: \d+
+    options:
+        utf8: true
+
+catalog_listing_reset_password_check_email:
+    path: /каталог-фирми/забравена-парола/успешно-изпращане.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+catalog_listing_add:
+    path: /catalog/listings/add.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+catalog_listing_update:
+    path: /catalog/listings/update/{id}.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        id: \d+
+    options:
+        utf8: true
+
+catalog_listing_preview:
+    path: /catalog/listings/preview
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+catalog_listing_search:
+    path: /каталог-фирми/search.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    methods: [GET, OPTIONS]
+    
+catalog_listing:
+    path: /каталог-фирми/{slug}-{id}.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        slug: "[^/]+"
+        id: \d+
+
+catalog_listing_contact:
+    path: /каталог-фирми/{slug}-{id}/контакти
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        slug: "[^/]+"
+        id: \d+
+
+catalog_listing_contact_success:
+    path: /каталог-фирми/{slug}-{id}/успешен-контакт
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        slug: "[^/]+"
+        id: \d+
+
+catalog_listing_share:
+    path: /каталог-фирми/{slug}-{id}/изпрати-на-приятел
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        slug: "[^/]+"
+        id: \d+
+
+catalog_listing_gallery:
+    path: /каталог-фирми/{slug}-{id}/снимки
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        slug: "[^/]+"
+        id: \d+
+
+catalog_listing_problem:
+    path: /каталог-фирми/{slug}-{id}/докладвай-проблем
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        slug: "[^/]+"
+        id: \d+
+
+catalog_listing_upgrade:
+    path: /каталог-фирми/{slug}-{id}/промотирай
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        slug: "[^/]+"
+        id: \d+
+
+catalog_listing_print:
+    path: /каталог-фирми/{slug}-{id}/принтирай
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        slug: "[^/]+"
+        id: \d+
+
+catalog_location_section_with_search_tag:
+    path: /каталог-фирми/{locationSlug}/tag-{searchTag}.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        locationSlug: "^(област|град|село|камп.|к.к.|в.з|м-т|вили|region|city|village|camping|locality|resort|villas)\\-[^/]+"
+        searchTag: "[^/]+"
+
+catalog_category_location_with_search_tag:
+    path: /каталог-фирми/{locationSlug}/{categorySlug}/tag-{searchTag}.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        locationSlug: "^(област|град|село|камп.|к.к.|в.з|м-т|вили|region|city|village|camping|locality|resort|villas)\\-[^/]+"
+        categorySlug: ".+"
+        searchTag: "[^/]+"
+
+catalog_category_with_search_tag:
+    path: /каталог-фирми/{categorySlug}/tag-{searchTag}.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        categorySlug: "[\\D]+"
+        searchTag: "[^/]+"
+
+catalog_listings_with_search_tag:
+    path: /каталог-фирми/tag-{searchTag}.html
+    options:
+        utf8: true
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        searchTag: "[^/]+"
+
+catalog_location_section:
+    path: /каталог-фирми/{locationSlug}.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        locationSlug: "^(област|град|село|камп.|к.к.|в.з|м-т|вили|region|city|village|camping|locality|resort|villas)\\-[^/]+"
+
+catalog_category_location:
+    path: /каталог-фирми/{locationSlug}/{categorySlug}.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        locationSlug: "^(област|град|село|камп.|к.к.|в.з|м-т|вили|region|city|village|camping|locality|resort|villas)\\-[^/]+"
+        categorySlug: ".+"
+
+catalog_category:
+    path: /каталог-фирми/{categorySlug}.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        categorySlug: "[\\D]+"
+
+catalog_listing_auto_login:
+    path: /catalog/listings/{listingId}/auth/{token}
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        listingId: \d+
+        token: \w+
+    options:
+        utf8: true
+        i18n: false

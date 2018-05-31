@@ -1,0 +1,11 @@
+security:
+    providers:
+        icepique_main_provider:
+            id: "icepique.user.security.user_provider"
+    firewalls:
+        dev:
+            pattern:   "^/(_(profiler|wdt)|css|images|js)/"
+            security:  false
+        main:
+            pattern:   ^/
+            security:  false

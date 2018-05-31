@@ -1,0 +1,318 @@
+user_message_auto_login:
+    path: /messages/{messageId}/auth/{token}
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        messageId: \d+
+        token: \w+
+    options:
+        utf8: true
+
+# @todo - to make it happen in the future
+#user_account:
+#    path: /account/index.html
+#    defaults:
+#        _controller: IcepiqueAppBundle:Default:index
+#    options:
+#        utf8: true
+
+user_profile:
+    path: /account/profile
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_profile_password_change:
+    path: /account/profile/password-change
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_profile_username_change:
+    path: /account/profile/username-change
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_profile_new_email:
+    path: /new-email/{id}
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        id: \d+
+    options:
+        utf8: true
+
+user_profile_deactivate:
+    path: /account/profile/deactivate
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_profile_close:
+    path: /profile/close/{id}/{token}
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        id: \d+
+        token: \w+
+    options:
+        utf8: true
+
+user_profile_deactivate_success:
+    path: /profile-deactivate-success
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_profile_delete_success:
+    path: /profile-delete-success
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_profile_email_change_success:
+    path: /account/email-change-success
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_listings:
+    path: /account/listings/active
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_listings_archive:
+    path: /account/listings/archive
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_listings_pending:
+    path: /account/listings/pending
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_wallet:
+    path: /account/wallet
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_wallet_transactions:
+    path: /account/wallet/transactions
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_wallet_transaction:
+    path: /account/wallet/transactions/{id}
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_saved_listings:
+    path: /saved/favourites
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_saved_searches:
+    path: /saved/searches
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_messages:
+    path: /account/messages
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_messages_view:
+    path: /account/messages/{id}
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        id: \d+
+    options:
+        utf8: true
+
+user_messages_archive:
+    path: /account/messages/archive
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_conversation_archive:
+    path: /account/conversation/{id}/archive
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        id: \d+
+    options:
+        utf8: true
+
+user_conversation_delete:
+    path: /account/conversation/{id}/delete
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        id: \d+
+    options:
+        utf8: true
+
+user_delivery:
+    path: /account/delivery
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_delivery_details:
+    path: /account/delivery/{type}/details
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        type: \d
+    options:
+        utf8: true
+
+user_delivery_packages:
+    path: /account/delivery/packages
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_delivery_locator:
+    path: /account/delivery/locator
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_profile_public:
+    path: /profile/{id}
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        id: \d+
+    options:
+        utf8: true
+
+user_profile_listings:
+    path: /profile/{id}/listings
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        id: \d+
+    options:
+        utf8: true
+
+user_profile_listings_category:
+    path: /profile/{id}/listings/{categorySlug}
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+        categorySlug: ''
+    requirements:
+        id: \d+
+        categorySlug: "[\\D]+"
+    options:
+        utf8: true
+
+user_profile_feedback:
+    path: /profile/{id}/feedback
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        id: \d+
+    options:
+        utf8: true
+
+user_profile_contact:
+    path: /profile/{id}/contact
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        id: \d+
+    options:
+        utf8: true
+
+user_profile_contact_success:
+    path: /profile/{id}/contact/success
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        id: \d+
+    options:
+        utf8: true
+
+user_offers:
+    path: /offers
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        id: \d+
+    options:
+        utf8: true
+
+user_offers_view:
+    path: /offers/view/{id}
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        id: \d+
+    options:
+        utf8: true
+
+user_offers_accept:
+    path: /offers/accept/{id}
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        id: \d+
+    options:
+        utf8: true
+
+user_offers_decline:
+    path: /offers/decline/{id}
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        id: \d+
+    options:
+        utf8: true
+
+user_verify_phone:
+    path: /account/profile/verify-phone
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+user_verified_phone:
+    path: /account/profile/verify-phone/verified
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true

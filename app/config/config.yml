@@ -1,0 +1,65 @@
+imports:
+    - { resource: "parameters.yml" }
+    - { resource: "services.yml" }
+    - { resource: "security.yml" }
+
+parameters:
+    locale: "%default_locale%"
+    validator.translation_domain: "messages"
+
+framework:
+    ide: "phpstorm://open?file=%%f&line=%%l"
+    translator:
+        fallbacks: [ "%default_locale%" ]
+    secret:          "%secret%"
+    router:
+        resource: "%kernel.project_dir%/app/config/routing.yml"
+        strict_requirements: "%kernel.debug%"
+    form:            ~
+    csrf_protection: ~
+    validation:
+        enable_annotations: false
+    serializer:
+        enable_annotations: false
+    templating:
+        engines: [ "twig" ]
+    default_locale:  "%default_locale%"
+    session:
+        handler_id: ~
+    fragments:       ~
+    http_method_override: true
+    php_errors:
+        log: true
+
+sensio_framework_extra:
+    request:
+        converters: true
+
+twig:
+    debug:            "%kernel.debug%"
+    strict_variables: "%kernel.debug%"
+
+jms_i18n_routing:
+    default_locale: "%default_locale%"
+    locales: "%available_locales%"
+    strategy: "prefix_except_default"
+
+monolog:
+    use_microseconds: false
+    handlers:
+        critical:
+            type:  stream
+            path:  "%kernel.logs_dir%/%kernel.environment%.critical.log"
+            level: critical
+            bubble: false
+        console:
+            type:  console
+            bubble: false
+        main:
+            type:         fingers_crossed
+            action_level: error
+            handler:      nested
+        nested:
+            type:  stream
+            path:  "%kernel.logs_dir%/%kernel.environment%.log"
+            level: warning

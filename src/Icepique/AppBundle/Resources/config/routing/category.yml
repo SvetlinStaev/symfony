@@ -1,0 +1,113 @@
+home_adult:
+    path: /обяви/запознанства.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+
+category_location_with_attributes:
+    path: /обяви/{locationSlug}/{categorySlug}/{attributeSlug}-f{attributeId}-{attributeValue}.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+        attributeSlug: "attribute"
+    options:
+        utf8: true
+    requirements:
+        locationSlug: "^(област|град|село|камп.|к.к.|в.з|м-т|вили|region|city|village|camping|locality|resort|villas)\\-[^/]+"
+        categorySlug: "[\\D]+"
+        attributeSlug: "[^/]+"
+        attributeId: \d+
+        attributeValue: \d+
+
+category_with_attributes_legacy:
+    path: /обяви/{categorySlug}/{attributeSlug}-f{attributeId}-{attributeValue}.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        categorySlug: "[^/]+"
+        attributeSlug: "[^/]+"
+        attributeId: \d+
+        attributeValue: \d+
+
+category_with_attributes:
+    path: /обяви/{categorySlug}/{attributeSlug}-f{attributeId}-{attributeValue}.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+        attributeSlug: "attribute"
+    options:
+        utf8: true
+    requirements:
+        categorySlug: "[\\D]+"
+        attributeSlug: "[^/]+"
+        attributeId: \d+
+        attributeValue: \d+
+
+location_section_with_search_tag:
+    path: /обяви/{locationSlug}/tag-{searchTag}.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        locationSlug: "^(област|град|село|камп.|к.к.|в.з|м-т|вили|region|city|village|camping|locality|resort|villas)\\-[^/]+"
+        searchTag: "[^/]+"
+
+category_location_with_search_tag:
+    path: /обяви/{locationSlug}/{categorySlug}/tag-{searchTag}.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        locationSlug: "^(област|град|село|камп.|к.к.|в.з|м-т|вили|region|city|village|camping|locality|resort|villas)\\-[^/]+"
+        categorySlug: "[\\D]+"
+        searchTag: "[^/]+"
+
+category_with_search_tag:
+    path: /обяви/{categorySlug}/tag-{searchTag}.html
+    options:
+        utf8: true
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        categorySlug: "[\\D]+"
+        searchTag: "[^/]+"
+
+listings_with_search_tag:
+    path: /обяви/tag-{searchTag}.html
+    options:
+        utf8: true
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        searchTag: "[^/]+"
+
+location_section:
+    path: /обяви/{locationSlug}.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        locationSlug: "^(област|град|село|камп.|к.к.|в.з|м-т|вили|region|city|village|camping|locality|resort|villas)\\-[^/]+"
+
+category_location:
+    path: /обяви/{locationSlug}/{categorySlug}.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        locationSlug: "^(област|град|село|камп.|к.к.|в.з|м-т|вили|region|city|village|camping|locality|resort|villas)\\-[^/]+"
+        categorySlug: ".+"
+
+category:
+    path: /обяви/{categorySlug}.html
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    options:
+        utf8: true
+    requirements:
+        categorySlug: "[\\D]+"

@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="bg" target-language="bg" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="WHu5vvg" resname="catalog_category">
+        <source>catalog_category</source>
+        <target>/каталог-фирми/{categorySlug}.html</target>
+      </trans-unit>
+      <trans-unit id="TOyVRyH" resname="catalog_category_location">
+        <source>catalog_category_location</source>
+        <target>/каталог-фирми/{locationSlug}/{categorySlug}.html</target>
+      </trans-unit>
+      <trans-unit id="XQRF_ak" resname="catalog_category_location_with_search_tag">
+        <source>catalog_category_location_with_search_tag</source>
+        <target>/каталог-фирми/{locationSlug}/{categorySlug}/tag-{searchTag}.html</target>
+      </trans-unit>
+      <trans-unit id="Z3Ymw9G" resname="catalog_category_with_search_tag">
+        <source>catalog_category_with_search_tag</source>
+        <target>/каталог-фирми/{categorySlug}/tag-{searchTag}.html</target>
+      </trans-unit>
+      <trans-unit id="nObgQ6n" resname="catalog_home">
+        <source>catalog_home</source>
+        <target>/каталог-фирми</target>
+      </trans-unit>
+      <trans-unit id="7oPOxZF" resname="home_adult">
+        <source>home_adult</source>
+        <target>/обяви/запознанства.html</target>
+      </trans-unit>
+      <trans-unit id="VJjPbrh" resname="catalog_listing">
+        <source>catalog_listing</source>
+        <target>/каталог-фирми/{slug}-{id}.html</target>
+      </trans-unit>
+      <trans-unit id="jR_IfH3" resname="catalog_listing_add">
+        <source>catalog_listing_add</source>
+        <target>/каталог-фирми/публикувай-нова-обява</target>
+      </trans-unit>
+      <trans-unit id="BmzZ7pv" resname="catalog_listing_contact">
+        <source>catalog_listing_contact</source>
+        <target>/каталог-фирми/{slug}-{id}/контакти</target>
+      </trans-unit>
+      <trans-unit id="Ng3CfZO" resname="catalog_listing_contact_success">
+        <source>catalog_listing_contact_success</source>
+        <target>/каталог-фирми/{slug}-{id}/успешен-контакт</target>
+      </trans-unit>
+      <trans-unit id="vTjTRhp" resname="catalog_listing_gallery">
+        <source>catalog_listing_gallery</source>
+        <target>/каталог-фирми/{slug}-{id}/снимки</target>
+      </trans-unit>
+      <trans-unit id="Ut5GHbz" resname="catalog_listing_login">
+        <source>catalog_listing_login</source>
+        <target>/каталог-фирми/редактирай-фирмен-профил</target>
+      </trans-unit>
+      <trans-unit id="1Q47PPK" resname="catalog_listing_logout">
+        <source>catalog_listing_logout</source>
+        <target>/каталог-фирми/изход/{id}</target>
+      </trans-unit>
+      <trans-unit id="BJaiqZb" resname="catalog_listing_new_password">
+        <source>catalog_listing_new_password</source>
+        <target>/каталог-фирми/нова-парола/{id}/{token}</target>
+      </trans-unit>
+      <trans-unit id="c7SuevB" resname="catalog_listing_problem">
+        <source>catalog_listing_problem</source>
+        <target>/каталог-фирми/{slug}-{id}/докладвай-проблем</target>
+      </trans-unit>
+      <trans-unit id="lOzKi6k" resname="catalog_listing_problem_contact_success">
+        <source>catalog_listing_problem_contact_success</source>
+        <target>/каталог-фирми/{slug}-{id}/успешно-докладван-проблем</target>
+      </trans-unit>
+      <trans-unit id="MB9IA89" resname="catalog_listing_publish_success">
+        <source>catalog_listing_publish_success</source>
+        <target>/каталог-фирми/успешно-публикуване</target>
+      </trans-unit>
+      <trans-unit id="ij58ybi" resname="catalog_listing_reset_password">
+        <source>catalog_listing_reset_password</source>
+        <target>/каталог-фирми/забравена-парола</target>
+      </trans-unit>
+      <trans-unit id="SpjXKiY" resname="catalog_listing_reset_password_check_email">
+        <source>catalog_listing_reset_password_check_email</source>
+        <target>/каталог-фирми/забравена-парола/проверка-на-имейл</target>
+      </trans-unit>
+      <trans-unit id="eYn2PzI" resname="catalog_listing_search">
+        <source>catalog_listing_search</source>
+        <target>/каталог-фирми/търсене</target>
+      </trans-unit>
+      <trans-unit id="sGO9NgI" resname="catalog_listing_share">
+        <source>catalog_listing_share</source>
+        <target>/каталог-фирми/{slug}-{id}/изпрати-на-приятел</target>
+      </trans-unit>
+      <trans-unit id="phuq56w" resname="catalog_listing_shortcut">
+        <source>catalog_listing_shortcut</source>
+        <target>/c{id}</target>
+      </trans-unit>
+      <trans-unit id="j9gzP.s" resname="catalog_listing_update">
+        <source>catalog_listing_update</source>
+        <target>/catalog/listings/update/{id}</target>
+      </trans-unit>
+      <trans-unit id="4p2v7QY" resname="catalog_listing_update_success">
+        <source>catalog_listing_update_success</source>
+        <target>/каталог-фирми/успешно-обновяване</target>
+      </trans-unit>
+      <trans-unit id="Tb8mNmT" resname="catalog_listing_upgrade">
+        <source>catalog_listing_upgrade</source>
+        <target>/каталог-фирми/{slug}-{id}/промотирай</target>
+      </trans-unit>
+      <trans-unit id="b0doRml" resname="catalog_location_section">
+        <source>catalog_location_section</source>
+        <target>/каталог-фирми/{locationSlug}.html</target>
+      </trans-unit>
+      <trans-unit id="U8pSQgT" resname="catalog_location_section_with_search_tag">
+        <source>catalog_location_section_with_search_tag</source>
+        <target>/каталог-фирми/{locationSlug}/tag-{searchTag}.html</target>
+      </trans-unit>
+      <trans-unit id="7bLNO3T" resname="category">
+        <source>category</source>
+        <target>/обяви/{categorySlug}.html</target>
+      </trans-unit>
+      <trans-unit id="U80tlK5" resname="category_location">
+        <source>category_location</source>
+        <target>/обяви/{locationSlug}/{categorySlug}.html</target>
+      </trans-unit>
+      <trans-unit id="BPblwZb" resname="category_location_with_attributes">
+        <source>category_location_with_attributes</source>
+        <target>/обяви/{locationSlug}/{categorySlug}/{attributeSlug}-f{attributeId}-{attributeValue}.html</target>
+      </trans-unit>
+      <trans-unit id="WS4Awvy" resname="category_location_with_search_tag">
+        <source>category_location_with_search_tag</source>
+        <target>/обяви/{locationSlug}/{categorySlug}/tag-{searchTag}.html</target>
+      </trans-unit>
+      <trans-unit id="JWYM9aa" resname="category_with_attributes">
+        <source>category_with_attributes</source>
+        <target>/обяви/{categorySlug}/{attributeSlug}-f{attributeId}-{attributeValue}.html</target>
+      </trans-unit>
+      <trans-unit id="D0hMGUi" resname="category_with_attributes_legacy">
+        <source>category_with_attributes_legacy</source>
+        <target>/обяви/{categorySlug}/{attributeSlug}-f{attributeId}-{attributeValue}.html</target>
+      </trans-unit>
+      <trans-unit id="tHpEbHn" resname="category_with_search_tag">
+        <source>category_with_search_tag</source>
+        <target>/обяви/{categorySlug}/tag-{searchTag}.html</target>
+      </trans-unit>
+      <trans-unit id="CT59X9u" resname="contact">
+        <source>contact</source>
+        <target>/контакти</target>
+      </trans-unit>
+      <trans-unit id="KHGLed4" resname="contact_success">
+        <source>contact_success</source>
+        <target>/контакти/успешен-контакт</target>
+      </trans-unit>
+      <trans-unit id="MN4YzE6" resname="faq">
+        <source>faq</source>
+        <target>/често-задавани-въпроси</target>
+      </trans-unit>
+      <trans-unit id="nf9dsiF" resname="about_us">
+        <source>about_us</source>
+        <target>/за-нас</target>
+      </trans-unit>
+      <trans-unit id="B2vaCBM" resname="legacy_catalog_category">
+        <source>legacy_catalog_category</source>
+        <target>/catalog-{id}-{slug}.html</target>
+      </trans-unit>
+      <trans-unit id="PVgSCt3" resname="legacy_catalog_listing_contact">
+        <source>legacy_catalog_listing_contact</source>
+        <target>/каталог-фирми/{slug}-{id}/contact.html</target>
+      </trans-unit>
+      <trans-unit id="SIR8byY" resname="legacy_catalog_listing_gallery">
+        <source>legacy_catalog_listing_gallery</source>
+        <target>/каталог-фирми/{slug}-{id}/gallery.html</target>
+      </trans-unit>
+      <trans-unit id="LPbaQ_H" resname="legacy_catalog_listing_comments">
+        <source>legacy_catalog_listing_comments</source>
+        <target>/каталог-фирми/{slug}-{id}/comments.html</target>
+      </trans-unit>
+      <trans-unit id="Fu7b2IR" resname="legacy_catalog_listing_problem">
+        <source>legacy_catalog_listing_problem</source>
+        <target>/каталог-фирми/{slug}-{id}/problem.html</target>
+      </trans-unit>
+      <trans-unit id="l_zI7lH" resname="legacy_catalog_listing_send_to_friend">
+        <source>legacy_catalog_listing_send_to_friend</source>
+        <target>/каталог-фирми/{slug}-{id}/send_friend.html</target>
+      </trans-unit>
+      <trans-unit id="0X2kU0O" resname="legacy_catalog_listing_upgrade">
+        <source>legacy_catalog_listing_upgrade</source>
+        <target>/каталог-фирми/{slug}-{id}/{upgrade}.html</target>
+      </trans-unit>
+      <trans-unit id="J42udJ4" resname="legacy_listing_contact">
+        <source>legacy_listing_contact</source>
+        <target>/обяви/{slug}-{id}/contact.html</target>
+      </trans-unit>
+      <trans-unit id="qTHVhzg" resname="legacy_listing_gallery">
+        <source>legacy_listing_gallery</source>
+        <target>/обяви/{slug}-{id}/gallery.html</target>
+      </trans-unit>
+      <trans-unit id="iGkdPB8" resname="legacy_listing_problem">
+        <source>legacy_listing_problem</source>
+        <target>/обяви/{slug}-{id}/problem.html</target>
+      </trans-unit>
+      <trans-unit id="VpNQsTf" resname="legacy_listing_comments">
+        <source>legacy_listing_comments</source>
+        <target>/обяви/{slug}-{id}/comments.html</target>
+      </trans-unit>
+      <trans-unit id="1NVo5T4" resname="legacy_listing_send_to_friend">
+        <source>legacy_listing_send_to_friend</source>
+        <target>/обяви/{slug}-{id}/send_friend.html</target>
+      </trans-unit>
+      <trans-unit id="NouAQLV" resname="legacy_listing_upgrade">
+        <source>legacy_listing_upgrade</source>
+        <target>/обяви/{slug}-{id}/{upgrade}.html</target>
+      </trans-unit>
+      <trans-unit id="D8TfxP6" resname="listing">
+        <source>listing</source>
+        <target>/обяви/{slug}-{id}.html</target>
+      </trans-unit>
+      <trans-unit id="e0uhpqs" resname="listing_add">
+        <source>listing_add</source>
+        <target>/обяви/публикувай-нова-обява</target>
+      </trans-unit>
+      <trans-unit id="AELGNSJ" resname="listing_reset_password">
+        <source>listing_reset_password</source>
+        <target>/обяви/възстановяване-на-парола</target>
+      </trans-unit>
+      <trans-unit id="gM2jJ65" resname="listing_auto_login">
+        <source>listing_auto_login</source>
+        <target>/обяви/{listingId}/auth/{token}</target>
+      </trans-unit>
+      <trans-unit id="8suSKxT" resname="listing_contact">
+        <source>listing_contact</source>
+        <target>/обяви/{slug}-{id}/контакти</target>
+      </trans-unit>
+      <trans-unit id="Gtm3KPR" resname="listing_contact_success">
+        <source>listing_contact_success</source>
+        <target>/обяви/{slug}-{id}/успешен-контакт</target>
+      </trans-unit>
+      <trans-unit id="DTvvXRp" resname="listing_delete">
+        <source>listing_delete</source>
+        <target>/обяви/изтрий-обява/{id}</target>
+      </trans-unit>
+      <trans-unit id="UPOezrK" resname="listing_gallery">
+        <source>listing_gallery</source>
+        <target>/обяви/{slug}-{id}/снимки</target>
+      </trans-unit>
+      <trans-unit id="0xysJth" resname="listing_login">
+        <source>listing_login</source>
+        <target>/обяви/вход</target>
+      </trans-unit>
+      <trans-unit id="HHq47vX" resname="listing_logout">
+        <source>listing_logout</source>
+        <target>/обяви/изход/{id}</target>
+      </trans-unit>
+      <trans-unit id="7KLTBMn" resname="listing_print">
+        <source>listing_print</source>
+        <target>/обяви/{slug}-{id}/принтирай</target>
+      </trans-unit>
+      <trans-unit id="EXVaXGd" resname="listing_problem">
+        <source>listing_problem</source>
+        <target>/обяви/{slug}-{id}/докладвай-проблем</target>
+      </trans-unit>
+      <trans-unit id="JDj2TWE" resname="listing_publish_success">
+        <source>listing_publish_success</source>
+        <target>/обяви/успешно-публикуване</target>
+      </trans-unit>
+      <trans-unit id="SZYLuzR" resname="listing_share">
+        <source>listing_share</source>
+        <target>/обяви/{slug}-{id}/изпрати-на-приятел</target>
+      </trans-unit>
+      <trans-unit id="npenQLw" resname="listing_shortcut">
+        <source>listing_shortcut</source>
+        <target>/{id}</target>
+      </trans-unit>
+      <trans-unit id="GQa0Gwh" resname="listing_update">
+        <source>listing_update</source>
+        <target>/обяви/редактиране-на-обява/{id}</target>
+      </trans-unit>
+      <trans-unit id="5yw3inJ" resname="listing_update_success">
+        <source>listing_update_success</source>
+        <target>/обяви/редактиране-на-обява/успешно-обновяване</target>
+      </trans-unit>
+      <trans-unit id="cSiTzJL" resname="listing_upgrade">
+        <source>listing_upgrade</source>
+        <target>/обяви/{slug}-{id}/промотирай</target>
+      </trans-unit>
+      <trans-unit id="rpGwvWj" resname="location_section">
+        <source>location_section</source>
+        <target>/обяви/{locationSlug}.html</target>
+      </trans-unit>
+      <trans-unit id="S4_L2f9" resname="location_section_with_search_tag">
+        <source>location_section_with_search_tag</source>
+        <target>/обяви/{locationSlug}/tag-{searchTag}.html</target>
+      </trans-unit>
+      <trans-unit id="_bEhEoa" resname="my_catalog_listings">
+        <source>my_catalog_listings</source>
+        <target>/каталог-фирми/обяви/моите-обяви</target>
+      </trans-unit>
+      <trans-unit id="HSQ.xFV" resname="my_listings">
+        <source>my_listings</source>
+        <target>/обяви/моите-обяви</target>
+      </trans-unit>
+      <trans-unit id="RoroP61" resname="my_saved_listings">
+        <source>my_saved_listings</source>
+        <target>/обяви/наблюдавани-обяви</target>
+      </trans-unit>
+      <trans-unit id="Y6NnHEs" resname="my_saved_searches">
+        <source>my_saved_searches</source>
+        <target>/обяви/запазени-филтри</target>
+      </trans-unit>
+      <trans-unit id="SdSEMWO" resname="statistics">
+        <source>statistics</source>
+        <target>/статистика</target>
+      </trans-unit>
+      <trans-unit id="TDlamXj" resname="user_login">
+        <source>user_login</source>
+        <target>/влез-в-профил</target>
+      </trans-unit>
+      <trans-unit id="HKIRsGr" resname="user_login_new_password">
+        <source>user_login_new_password</source>
+        <target>/нова-парола/{id}/{token}</target>
+      </trans-unit>
+      <trans-unit id="Oyn_UTK" resname="user_login_reset_password">
+        <source>user_login_reset_password</source>
+        <target>/нова-парола/промяна-на-парола</target>
+      </trans-unit>
+      <trans-unit id="zVr04Qv" resname="user_login_reset_password_check_email">
+        <source>user_login_reset_password_check_email</source>
+        <target>/нова-парола/проверка-на-имейл</target>
+      </trans-unit>
+      <trans-unit id="gqgb2__" resname="user_profile_contact">
+        <source>user_profile_contact</source>
+        <target>/профил/{id}/контакти</target>
+      </trans-unit>
+      <trans-unit id="kEhfLAS" resname="user_profile_contact_success">
+        <source>user_profile_contact_success</source>
+        <target>/профил/{id}/успешен-контакт</target>
+      </trans-unit>
+      <trans-unit id="4.B_t5N" resname="user_profile_feedback">
+        <source>user_profile_feedback</source>
+        <target>/профил/{id}/оценка</target>
+      </trans-unit>
+      <trans-unit id="f9.cb6Y" resname="user_profile_listings">
+        <source>user_profile_listings</source>
+        <target>/профил/{id}/обяви</target>
+      </trans-unit>
+      <trans-unit id="JhmKIjc" resname="user_profile_listings_category">
+        <source>user_profile_listings_category</source>
+        <target>/профил/{id}/обяви/{categorySlug}</target>
+      </trans-unit>
+      <trans-unit id="jr.aUof" resname="user_profile_public">
+        <source>user_profile_public</source>
+        <target>/профил/{id}</target>
+      </trans-unit>
+      <trans-unit id="BiUrF98" resname="user_register">
+        <source>user_register</source>
+        <target>/регистрация</target>
+      </trans-unit>
+      <trans-unit id="TxkqZVH" resname="user_register_options">
+        <source>user_register_options</source>
+        <target>/регистрация/други-опции</target>
+      </trans-unit>
+      <trans-unit id="5sqdqT9" resname="user_register_check_email">
+        <source>user_register_check_email</source>
+        <target>/регистрация/проверка-на-имейл</target>
+      </trans-unit>
+      <trans-unit id="qOPfVSn" resname="user_register_confirm">
+        <source>user_register_confirm</source>
+        <target>/регистрация/потвърждение/{id}/{token}</target>
+      </trans-unit>
+      <trans-unit id="Mtmyv7j" resname="user_register_confirmed">
+        <source>user_register_confirmed</source>
+        <target>/регистрация/потвърждение</target>
+      </trans-unit>
+      <trans-unit id="4Bk490u" resname="user_saved_listings">
+        <source>user_saved_listings</source>
+        <target>/моят-акаунт/бележник/наблюдавани-обяви</target>
+      </trans-unit>
+      <trans-unit id="UoYe5jP" resname="user_saved_searches">
+        <source>user_saved_searches</source>
+        <target>/моят-акаунт/бележник/запазени-филтри</target>
+      </trans-unit>
+      <trans-unit id="_x2He8M" resname="user_profile">
+        <source>user_profile</source>
+        <target>/моят-акаунт/профил</target>
+      </trans-unit>
+      <trans-unit id="nJexOF7" resname="user_profile_password_change">
+        <source>user_profile_password_change</source>
+        <target>/моят-акаунт/смяна-на-парола</target>
+      </trans-unit>
+      <trans-unit id="C67l0al" resname="user_profile_username_change">
+        <source>user_profile_username_change</source>
+        <target>/моят-акаунт/смяна-на-имейл</target>
+      </trans-unit>
+      <trans-unit id="yRULlap" resname="user_profile_deactivate">
+        <source>user_profile_deactivate</source>
+        <target>/моят-акаунт/деактивация</target>
+      </trans-unit>
+      <trans-unit id="d4A0xl5" resname="user_profile_deactivate_success">
+        <source>user_profile_deactivate_success</source>
+        <target>/успешна-деактивация</target>
+      </trans-unit>
+      <trans-unit id="c3HviEx" resname="user_profile_delete_success">
+        <source>user_profile_delete_success</source>
+        <target>/успешно-изтрит-профил</target>
+      </trans-unit>
+      <trans-unit id="VKySLIq" resname="user_profile_email_change_success">
+        <source>user_profile_email_change_success</source>
+        <target>/моят-акаунт/изпратен-имейл-с-активация</target>
+      </trans-unit>
+      <trans-unit id="wBohP.T" resname="user_messages">
+        <source>user_messages</source>
+        <target>/моят-акаунт/съобщения</target>
+      </trans-unit>
+      <trans-unit id="UzpCxFI" resname="user_wallet">
+        <source>user_wallet</source>
+        <target>/моят-акаунт/портфейл</target>
+      </trans-unit>
+      <trans-unit id="0kOA6OQ" resname="user_wallet_transactions">
+        <source>user_wallet_transactions</source>
+        <target>/моят-акаунт/портфейл/транзакции</target>
+      </trans-unit>
+      <trans-unit id="pHCl51F" resname="user_delivery">
+        <source>user_delivery</source>
+        <target>/моят-акаунт/доставка</target>
+      </trans-unit>
+      <trans-unit id="QdlRm0y" resname="user_delivery_packages">
+        <source>user_delivery_packages</source>
+        <target>/моят-акаунт/доставка/пратки</target>
+      </trans-unit>
+      <trans-unit id="4Aybujs" resname="user_delivery_locator">
+        <source>user_delivery_locator</source>
+        <target>/моят-акаунт/доставка/офис-локатор</target>
+      </trans-unit>
+      <trans-unit id="Ts8bKkC" resname="user_messages_archive">
+        <source>user_messages_archive</source>
+        <target>/моят-акаунт/съобщения/архив</target>
+      </trans-unit>
+      <trans-unit id="wYSaLXY" resname="user_listings">
+        <source>user_listings</source>
+        <target>/моят-акаунт/моите-обяви</target>
+      </trans-unit>
+      <trans-unit id="e5Zii5W" resname="user_listings_archive">
+        <source>user_listings_archive</source>
+        <target>/моят-акаунт/моите-обяви/архив</target>
+      </trans-unit>
+      <trans-unit id=".ulL1Bu" resname="user_listings_pending">
+        <source>user_listings_pending</source>
+        <target>/моят-акаунт/моите-обяви/изчакващи</target>
+      </trans-unit>
+      <trans-unit id="CvM6BX9" resname="user_verify_phone">
+        <source>user_verify_phone</source>
+        <target>/моят-акаунт/профил/потвърди-телефон</target>
+      </trans-unit>
+      <trans-unit id="tKRCMGR" resname="user_verified_phone">
+        <source>user_verified_phone</source>
+        <target>/моят-акаунт/профил/успешно-потвърден-телефон</target>
+      </trans-unit>
+      <trans-unit id="0V4lt4D" resname="user_agreement">
+        <source>user_agreement</source>
+        <target>/общи-условия</target>
+      </trans-unit>
+      <trans-unit id="iMmOXyw" resname="privacy_policy">
+        <source>privacy_policy</source>
+        <target>/политика-за-поверителност</target>
+      </trans-unit>
+      <trans-unit id="wunZg_J" resname="privacy_policy_consent">
+        <source>privacy_policy_consent</source>
+        <target>/моят-акаунт/политика-за-поверителност/приемам</target>
+      </trans-unit>
+      <trans-unit id="xi5tsz9" resname="listings_by_city">
+        <source>listings_by_city</source>
+        <target>/обяви-по-области</target>
+      </trans-unit>
+      <trans-unit id="JIIqlFj" resname="companies_by_city">
+        <source>companies_by_city</source>
+        <target>/фирми-по-области</target>
+      </trans-unit>
+      <trans-unit id="SDzsAnu" resname="verification_explained">
+        <source>verification_explained</source>
+        <target>/подредба-на-обявите</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
