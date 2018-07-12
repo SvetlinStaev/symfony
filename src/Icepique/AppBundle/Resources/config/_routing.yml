@@ -1,0 +1,8 @@
+# All routes with domain requirement are taken out and it works
+home:
+    path: /
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+
+category:
+    resource: "@IcepiqueAppBundle/Resources/config/routing/category.yml"
