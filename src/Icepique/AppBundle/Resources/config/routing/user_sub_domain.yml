@@ -1,61 +1,51 @@
-user_profile_public:
-    path: /profile/{id}
+subdomain_public:
+    path: /
     host: "{domain}%base_domain%"
     defaults:
         _controller: IcepiqueAppBundle:Default:index
-        domain: "www"
     requirements:
-        domain: "www|beta|staging"
-        id: \d+
+        domain: ".*"
     options:
         utf8: true
 
-user_profile_listings:
-    path: /profile/{id}/listings
+subdomain_listings:
+    path: /listings
     host: "{domain}%base_domain%"
     defaults:
         _controller: IcepiqueAppBundle:Default:index
-        domain: "www"
     requirements:
-        domain: "www|beta|staging"
-        id: \d+
+        domain: ".*"
+    options:
+        utf8: false
+
+subdomain_contact:
+    path: /contact
+    host: "{domain}%base_domain%"
+    defaults:
+        _controller: IcepiqueAppBundle:Default:index
+    requirements:
+        domain: ".*"
     options:
         utf8: true
 
-user_profile_listings_category:
-    path: /profile/{id}/listings/{categorySlug}
+subdomain_listings_category:
+    path: /listings/{categorySlug}
     host: "{domain}%base_domain%"
     defaults:
         _controller: IcepiqueAppBundle:Default:index
-        categorySlug: ""
-        domain: "www"
+        categorySlug: ''
     requirements:
-        domain: "www|beta|staging"
-        id: \d+
+        domain: ".*"
         categorySlug: "[\\D]+"
     options:
         utf8: true
 
-user_profile_feedback:
-    path: /profile/{id}/feedback
+subdomain_feedback:
+    path: /feedback
     host: "{domain}%base_domain%"
     defaults:
         _controller: IcepiqueAppBundle:Default:index
-        domain: "www"
     requirements:
-        domain: "www|beta|staging"
-        id: \d+
-    options:
-        utf8: true
-
-user_profile_contact:
-    path: /profile/{id}/contact
-    host: "{domain}%base_domain%"
-    defaults:
-        _controller: IcepiqueAppBundle:Default:index
-        domain: "www"
-    requirements:
-        domain: "www|beta|staging"
-        id: \d+
+        domain: ".*"
     options:
         utf8: true

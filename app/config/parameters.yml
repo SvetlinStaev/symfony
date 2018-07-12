@@ -1,4 +1,5 @@
 parameters:
+    base_domain: .test.dev
     secret: default
     available_locales:
         - en
